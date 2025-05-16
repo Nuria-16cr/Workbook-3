@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workbook 3</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Jura:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-group">
+        <h2>Interactive Media</h2>
+        <h2>Sem 1 2025</h2>
+      </div>
+      <h1 class="title">Making Workbook 3</h1>
+    </header>
+    <main>
+      <section class="images">
+        <img
+          src="assets/Workbook-3.png"
+          alt="Workbook 3 plan"
+          class="canthelp-img"
+        />
+      </section>
+      <section class="description">
+        <p>
+          For my workbook 3 I still wanted to play into the idea of fantasy, I
+          liked the dark colours that I had on the first page of my workbook 2
+          so I keep the moody mysterious vibe, but I updated it slightly.<br /><br />
+          I planned out the layout of my html pages with the content to get an
+          idea of what each was going to look like and to type all the content
+          out. The layout was then changed as I was finding it hard to do the
+          grid format. All the pages have a horizontal format except the
+          "gallery" one which I decided to create in a separate CSS to avoid
+          confusion. The main thing that I focused when working on this workbook
+          was creating a lot more classes, and classes that would be able to
+          reuse. From my previous workbooks I kept coming up with errors as I
+          was missing CSS info such as, position and justify-content so I aimed
+          to be as thorough as possible when setting the parameters for my
+          classes. However, once I had one page styled, I was able to copy the
+          layout with minor changes, another major addition to my CSS was media
+          queries so it the website is responsive at all sizes.<br /><br />
+          Animating the ring was the biggest challenge as my experience with
+          JavaScript is limited, I initially tried to animate it with CSS
+          keyframes but was not able to create the effect I wanted. There are
+          lots of tutorials online that animate rings as loading elements, so I
+          was able to use some of that code on how to calculate the centre of
+          the ring and the movement of the balls. I have not sourced any of the
+          videos as I watched a lot of them and didn't end up copying any of
+          their code directly, but they gave me a good idea of what was need for
+          objects to move around a circle and how to make the animation
+          infinite. I used some AI to tailor the animation to my website and to
+          recover from errors. <br /><br />One of the problems I ran into was I
+          initially had 8 balls so I defined it, 'const numBalls = 8; but when
+          wanted to add more balls it would no longer work so JavaScript now
+          creates an array depending on how many items in the class
+          .small-circle there is: const balls =
+          Array.from(document.querySelectorAll(".small-circle"));
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

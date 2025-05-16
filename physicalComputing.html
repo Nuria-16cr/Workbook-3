@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Physical Computing</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Jura:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-group">
+        <h2>Interactive Media</h2>
+        <h2>Sem 1 2025</h2>
+      </div>
+      <h1 class="title">Physical Computing</h1>
+    </header>
+    <main>
+      <section class="image-block">
+        <img
+          src="assets/arduino.jpg"
+          alt="Arduino components"
+          class="final-img"
+        />
+        <div class="description">
+          <h2>Arduino Components</h2>
+          <p>
+            Our best guess of Arduino components, looking back at these
+            exercises I can confidently recognise majority of this components,
+            how they could be used in with an Arduino and how they are utilised
+            in real life. Some examples include sensors are used in cars to
+            detect if they are too close to an object. LEDs are used all over
+            including Christmas lights and devices. The receiver is placed on
+            TVs to receive input from remote controls 180 motors are used for
+            windscreen wipers. Screens for digital watches and temp and humidity
+            sensors are used for heating and cooling systems.
+          </p>
+        </div>
+      </section>
+      <section class="image-block">
+        <video class="final-img" controls>
+          <source src="assets/lightSensor.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="description">
+          <h2>Light Sensor</h2>
+          <p>
+            The circuit is composed of a light sensor and a tone speaker, the
+            Arduino reads the amount of light in the room and maps that data
+            into a set of numbers, from that data the numbers are grouped into
+            different tones. The output results in varying musical tones
+            depending on the light received.
+          </p>
+        </div>
+      </section>
+      <section class="image-block">
+        <video class="final-img" controls>
+          <source src="assets/180deg.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="description">
+          <h2>Light Sensor II</h2>
+          <p>
+            Similarly to the light receptor into tone circuit, the following
+            circuit triggers the 180-degree servo. It’s achieved in the same
+            manner with the Arduino mapping the light input, the information
+            triggers the motor which turns 180 degrees.
+          </p>
+        </div>
+      </section>
+      <section class="image-block">
+        <video class="final-img" controls>
+          <source src="assets/potato.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="description">
+          <h2>Galvanic Response</h2>
+          <p>
+            The circuit above utilises galvanic skin response, we are conductors
+            of electricity, we do so though the sweat and electrical
+            conductivity of the skin. For this this circuit each cable is
+            attached to a potato, orange, and aluminium foil, each of this
+            conduct electricity differently, the more water it contains the more
+            electricity it will conduct, in this case aluminium being a metal
+            will also be a good conductor due to its atomic structure. By
+            touching the circuit, we become part of the circuit, disturbing the
+            conductivity, this disturbance is recognised by the Arduino which
+            maps the electric current to a tone.
+          </p>
+        </div>
+      </section>
+      <section class="image-block">
+        <video class="final-img" controls>
+          <source src="assets/PJ5.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="description">
+          <h2>Arduino and Processing</h2>
+          <p>
+            In week 9 we utilised the Arduino’s dial to manipulate a sketch made
+            in P5.js, my aim was to make the circle change colour depending on
+            the mapped data, I was able to successfully turn the square into a
+            square, change the background colour, change the position of the
+            mapped data and the data in which changed the colour and size,
+            unfortunately I did not achieve different colours based on rotation
+            with the limited class time we had.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
